@@ -2,3 +2,19 @@
 h1{
     
 }
+
+/* .tools-class{
+    background: linear-gradient(#283845, #e2e3ef);
+} */
+
+body{
+    background: linear-gradient(#283845, #e2e3ef);
+}
+
+.me-info{
+    margin: auto;
+}
+
+/* #me-info{
+    margin: auto;
+} */
