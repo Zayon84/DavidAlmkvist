@@ -1,20 +1,106 @@
 /* CSS */
-h1{
-    
-}
 
-/* .tools-class{
-    background: linear-gradient(#283845, #e2e3ef);
-} */
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body{
     background: linear-gradient(#283845, #e2e3ef);
+    
+}
+
+nav{
+    background-color: #283845;
+    padding: 1em;
+
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+#nav-logo{
+    justify-self: flex-start;
+    flex-grow: 1;
+}
+
+nav a{
+    color: white;
+    font-size: 24px;
+    margin: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav li{
+    display: inline-block;
+    color: white;
+}
+
+img{
+    border: 0.5em solid white ;
+}
+
+.education h1{
+    font-size: x-large;
+    /* text-align: center; */
+}
+
+.education li{
+    margin-left: 1.2em;
+}
+
+#cv{
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+#title{
+    text-align: center;
+}
+
+h2{
+    font-family: 'Poppins', cursive;
+}
+
+hr {
+    margin: 1em  0;
+}
+
+.end-hr{
+    margin-bottom: 10em;
 }
 
 .me-info{
-    margin: auto;
+    margin-top: 1em;
 }
 
-/* #me-info{
-    margin: auto;
-} */
+.me-text{
+    padding: 1em;
+}
+
+.me-text h1{
+    font-size: 5rem;
+    font-family: 'Courgette' , cursive;
+}
+
+th{
+    text-align: left;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #283845;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

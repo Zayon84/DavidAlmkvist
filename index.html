@@ -1,38 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>David Almkvist</title>
-    <!-- Bootstrap -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script> -->
+
 
     <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:wght@900&family=Poppins&family=Ubuntu:wght@300;400&display=swap"
+        rel="stylesheet">
     <!-- Fontawesome -->
     <!-- CSS-->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li id="nav-logo">
+                    <a href="index.html">David Almkvist</a>
+                </li>
+                <li>
+                    <a href="index.html">Main</a>
+                </li>
+                <li>
+                    <a href="tools.html">Tools</a>
+                </li>
+                <li>
+                    <a href="javascript-stuff.html">Javascript Stuff</a>
+                </li>
+            </ul>
 
+        </nav>
+    </header>
 
     <!-- CV Still-->
-    <section id="CV">
-        <nav>
-            <a href="index.html">Main</a>
-            <a href="tools.html">Tools</a>
-            <a href="javascript-stuff.html">Javascript Stuff</a>
-        </nav>
-        <br>
+    <section id="cv">
 
         <div id="me-info">
-            <table class="me-info" cellspacing="20">                                <!-- REDO -->
+            <table class="me-info" > 
                 <tr>
                     <td><img src="images/david.jpg" width="150"></td>
-                    <td>
+                    <td class="me-text">
                         <h1>David Almkvist</h1>
                         <h2>Student vid IT-Högskolan</h2>
                         <p>Just nu studerar jag till <em>.Net Cloud Developer</em> på<strong> IT-Högskolan</strong></p>
@@ -40,18 +53,20 @@
                 </tr>
             </table>
         </div>
-        
+
         <hr size="3" noshade>
-        
-        <h3>Utbildningar</h3>
-        <ul>
-            <li>.Net Cloud Developer -Current</li>
-            <li>Speldesign och Programmering - Gotlands Högskola</li>
-            <li>Teknikprogrammet med datainriktining - Östrabo Gymmnasiet</li>
-        </ul>
-        <hr size="3" noshade>                                   <!-- REDO -->
+        <section class="education">
+            <h1>Utbildningar</h1>
+            <ul>
+                <li>.Net Cloud Developer -Current</li>
+                <li>Speldesign och Programmering - Högskolan på Gotland</li>
+                <li>Teknikprogrammet med datainriktining - Östrabo Gymmnasiet</li>
+            </ul>
+        </section>
+
+        <hr size="3" noshade> <!-- REDO -->
         <h1>Arbetslivserfarenhet</h1>
-        <table border="1">                                      <!-- REDO -->
+        <table border="1"> <!-- REDO -->
             <tr>
                 <th>Datum</th>
                 <th>Arbetsplats</th>
@@ -68,62 +83,7 @@
         <hr size="3" noshade="">
         <h1>Skills</h1>
 
-        <table>
-            <tr>
-                <td>
-                    <table>
-                        <tr>
-                            <td>C#</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>SQL</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Unity</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                    </table>
-                </td>
-                <td>
-                    <table>
-                        <tr>
-                            <td>C#</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>SQL</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Unity</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                    </table>
-                </td>
-                <td>
-                    <table>
-                        <tr>
-                            <td>C#</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>SQL</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Unity</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-
-        <hr size="3" noshade="">
-
-        <table > <!-- REDO -->
+        <table> <!-- REDO -->
             <tr>
                 <th>Code</th>
                 <th></th>
@@ -167,18 +127,18 @@
 
         </table>
 
+    <hr class="end-hr" size="3" noshade="">
 
-
-
-
-
+    
     </section>
 
 
 
     <!-- Footer -->
     <section id="footer-section">
-        <p>© Copyright David Almkvist</p>
+        <footer>
+            <p>© Copyright David Almkvist</p>
+        </footer>
     </section>
 
     <!-- Javascript -->
