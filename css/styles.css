@@ -1,34 +1,35 @@
 /* CSS */
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background: linear-gradient(#283845, #e2e3ef);
-    
+
 }
 
-nav{
+/* Nav stuff  */
+nav {
     background-color: #283845;
     padding: 1em;
 
 }
 
-nav ul{
+nav ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    
+
 }
 
-#nav-logo{
+#nav-logo {
     justify-self: flex-start;
     flex-grow: 1;
 }
 
-nav a{
+nav a {
     color: white;
     font-size: 24px;
     margin: 10px;
@@ -36,65 +37,118 @@ nav a{
     text-decoration: none;
 }
 
-nav li{
+nav li {
     display: inline-block;
     color: white;
 }
 
-img{
-    border: 0.5em solid white ;
+/* me stuff */
+img {
+    border: 0.5em solid white;
 }
 
-.education h1{
+.me-info {
+    margin-top: 1em;
+}
+
+.me-text {
+    padding: 1em;
+}
+
+.me-text h1 {
+    font-size: 5rem;
+    font-family: 'Courgette', cursive;
+}
+
+.education h1 {
     font-size: x-large;
-    /* text-align: center; */
 }
 
-.education li{
+.education li {
     margin-left: 1.2em;
 }
 
-#cv{
+#cv {
     width: 60%;
     margin: 0 auto;
-    
+
 }
 
-#title{
-    text-align: center;
-}
-
-h2{
+h2 {
     font-family: 'Poppins', cursive;
 }
 
 hr {
-    margin: 1em  0;
+    margin: 1em 0;
 }
 
-.end-hr{
-    margin-bottom: 10em;
-}
-
-.me-info{
+/* tools stuff */
+article {
+    text-align: center;
+    font-size: x-large;
     margin-top: 1em;
 }
 
-.me-text{
-    padding: 1em;
+#title h1 {
+    font-size: 3rem;
+    padding: 0.5em;
 }
 
-.me-text h1{
-    font-size: 5rem;
-    font-family: 'Courgette' , cursive;
+#tools-links a {
+    color: darkblue;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
-th{
+span {
+    font-weight: bolder;
+}
+
+
+
+#tools-links {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#tools-links li {
+    margin-left: 1.2em;
+}
+
+
+th {
     text-align: left;
 }
 
+/* javascript stuff */
+.img-js{
+    border-radius: 10%;
+    width: 500px;
+    position: relative;
+    top: 0px;
+    left: 300px;
+    display: none;
+    
+}
 
-footer{
+.btn{
+    width: 200px;
+    height: 75px;
+    font-size: larger;
+    font-family: 'Courgette', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
+
+.end-hr {
+    margin-bottom: 10em;
+}
+
+footer {
     display: flex;
     justify-content: center;
     padding: 5px;
